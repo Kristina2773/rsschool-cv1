@@ -47,3 +47,18 @@ function minutesToMidnight(d){
   }
 }
 ```
+## Work Experience
+ CV
+
+## Education
+* Plekhanov Russian University of Economics
+* Udemy 
+    + HTML, CSS
+    + JS
+* HTML Academy
+
+
+## Languages: 
+1. Russian (native speaker)
+2. English (B1)
+3. Deutch (basic)
