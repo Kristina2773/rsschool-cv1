@@ -1,0 +1,24 @@
+# Yatsenko Kristina
+
+![Yatsenko Kristina](img.jpg "Me")
+
+## My contact info
+
+* Phone: +7(904)243-58-13
+* Mail: [d.kristina27@yandex.ru](d.kristina27@yandex.ru)
+* GitHub: [Kristina2773](https://github.com/Kristina2773)
+* Telegram: [Kristina](https://t.me/frosty_ka)
+*********
+
+## About me
+My name is Kristina Yatsenko.
+
+I am 24 years old. I studied at the University of Economics..
+Several years ago, inspired by the people around me, I realized that no one could teach a person better than himself. After reading books by one of my favorite authors, Ayn Rand, I realized that the best way to live is action and creation, as well as constant self-improvement and development. Programming is one of the best areas for achieving this goal.  I used to think that this area is given only to those who have a special mindset, but now I firmly know that the basis of success is perseverance and aspiration. That is why I am here.
+
+* My strenghts:
+
+    + the desire to develop myself 
+    + creativity 
+    + responsibility
+    + personal time management
