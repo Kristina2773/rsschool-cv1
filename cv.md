@@ -1,6 +1,6 @@
 # Yatsenko Kristina
 
-![Yatsenko Kristina](img.jpg "Me")
+![Yatsenko Kristina](assets/img/img.JPG "Me")
 
 ## My contact info
 
