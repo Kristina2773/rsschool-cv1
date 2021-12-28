@@ -1,0 +1,293 @@
+@font-face {
+    font-family: Oxygen, sans-serif;
+    src: url("assets/fonts/Regular.ttf");
+}
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.header {
+    width: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-size: 200%;
+    background-image: url('assets/img/background.jpg');
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    width: 70%;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+    font-size: 120%;
+}
+
+.languages{
+    order: 1;
+    padding-right: 80px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;  
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.nav-item:hover {
+    color: red;
+}
+.header {
+    background-color: #D2691E;;
+    color: white;
+}
+a:link, a:visited {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+.section{
+    color: #2F4F4F;
+}
+
+.section-title {
+    color: #CD853F;
+}
+.section-title {
+    text-align: center;
+}
+.about-me-title {
+    text-align: left;
+}
+
+.name {
+    padding: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    font-size: 70px;
+    font-weight: bold;
+    color: #CD853F;
+}
+
+.developer{
+    text-align: center;
+    font-size: 30px;
+    color: #CD853F;
+}
+
+.photo {
+    padding-right: 70px;
+}
+
+.contact {
+    padding: 15px 0;
+    background-color: #D2691E;
+}
+
+.visible{
+    display: none;
+}
+
+.my-contacts{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: white;
+
+}
+
+.link {
+    font-size: 100%;
+}
+
+.link:hover{
+    color: red;
+}
+.phone {
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-left: 30px;
+    background: url("assets/svg/phone.svg") no-repeat;
+    background-size: 25px;
+}
+
+.email {
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-left: 30px;
+    background: url("assets/svg/email.svg") no-repeat;
+    background-size: 25px;
+}
+
+.gitHub {
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-left: 30px;
+    background: url("assets/svg/Github.svg") no-repeat;
+    background-size: 25px;
+}
+
+.telegram {
+    padding-top: 5px;
+    padding-left: 30px;
+    background: url("assets/svg/telegram.svg") no-repeat;
+    background-size: 25px;
+}
+.skills-section {
+    width: 100%;
+}
+ .skills-list {
+    width: 100%;
+    list-style: none;
+}
+
+.level {
+    padding: 0;
+    margin-bottom: 5px;
+    height: 14px;
+    width: 300px;
+    border: 1px solid #CD853F;
+    border-radius: 8px;
+    background-color: LightGray;
+}
+  
+.skills-level {
+    text-align: center;
+    height: 12px;
+    font-size: 12px;
+    color: #2F4F4F;
+    background-color: #CD853F;
+    border-radius: 6px;
+}  
+
+.about-me {
+    padding: 3%;
+    font-size: 20px;
+}
+
+.list-item {
+    padding-left: 20px;
+    background: url("assets/svg/butterfly2.svg") no-repeat;
+    background-size: 20px;
+    list-style: none;
+}
+
+.strengths-list{
+    text-align: center;
+    list-style-type : none; 
+}
+
+.strengts-item {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.expirience{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.expirience-list {
+    padding-top: 10%;
+    padding-bottom: 15%;
+    list-style: none;
+}
+
+.expirience-list li{
+    padding-bottom: 5%;
+}
+
+.projects {
+    text-align: center;
+}
+
+.education {
+    padding-top: 25%;
+}
+.code {
+    font-size: 110%;
+}
+
+@media(max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+@keyframes to-last-name{
+    0% {
+        color: #CD853F;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: #CD853F;
+    }
+}
+@keyframes first-name{
+    0% {
+        color: white;
+    }
+    50% {
+        color: #CD853F;
+    }
+    100% {
+        color: white;
+    }
+}
+
+.first-name {
+    animation: first-name 10s infinite;
+}
+
+.to-last-name {
+    animation: to-last-name 10s infinite;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #D2691E;
+}
+
+.footer-github {
+    padding-top: 2%;
+}
+.footer-rsschool{
+    padding-top: 1%;
+}
+.footer-year {
+    padding-top: 1%;
+}

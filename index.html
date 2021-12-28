@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristina Yatsenko | rsschool-cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header class="header container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"> 
+                        <a href="#about-me" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a href="#my-code" class="nav-link">My code</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main class="main container">
+        <h1 class="section-title visible">Resume</h1>
+            <section class="section main-header" id="profile">
+                <h2 class="section-title visible">Profile</h2>
+                <section>
+                    <h2 class="section-title name">
+                        <span class="to-last-name">Yatsenko</span> <span class="first-name">Kristina</span>
+                    </h2>
+                    <p class="section-title developer">Beginner Frontend Developer</p>
+                </section>
+                <figure class="photo">
+                    <img src="assets/img/img.jpg" alt="I am">
+                </figure>
+            </section>
+        <section class="left">
+            <h2 class="section-title visible">Info</h2>    
+            <section class="section contact" id="contacts">
+                <h2 class="section-title visible">My contacts</h2>
+                <ul class="my-contacts">
+                    <li class="phone link">
+                        <a href="tel:+7(904)243-58-13">+7(904)243-58-13</a></li>
+                    <li class="email link">
+                        <a href="mailto:d.kristina27@yandex.ru">d.kristina27@yandex.ru</a>
+                    </li>
+                    <li class="gitHub link">
+                        <a href="https://github.com/Kristina2773">Kristina2773</a>
+                    </li>
+                    <li class="telegram link">
+                        <a href="https://t.me/frosty_ka">Kristina</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section about-me" id="about-me">
+                <h2 class="section-title about-me-title">About me</h2>
+                <p> I am 24 years old. I studied at the University of Economics..
+                    Several years ago, inspired by the people around me, I realized that no one could teach a person better than himself. After reading books by one of my favorite authors, Ayn Rand, I realized that the best way to live is action and creation, as well as constant self-improvement and development. Programming is one of the best areas for achieving this goal.  I used to think that this area is given only to those who have a special mindset, but now I firmly know that the basis of success is perseverance and aspiration. That is why I am here. 
+                </p>
+                <ul class="strengths-list">
+                    <li><b>Strengths:</b></li>
+                    <li class="strengts-item">the desire to develop myself</li>
+                    <li class="strengts-item">creativity </li>
+                    <li class="strengts-item">responsibility</li>
+                    <li class="strengts-item">personal time management</li>  
+                </ul>
+            </section>
+            <section class="expirience">
+                <h2 class="section-title visible">Code Example</h2>
+                <section class="section" id="my-code">
+                    <h2 class="section-title">My code from Codewars</h2>
+                    <pre class="pre">
+                        <code class="code">
+function minutesToMidnight(d){
+    let next_day = new Date(new Date().setDate(d.getDate() + 1));
+    next_day.setHours(0);
+    next_day.setMinutes(0);
+    next_day.setSeconds(0);
+    let result = Math.round((next_day.getTime() - d.getTime())/6000)
+        if (result == 1) {
+            return result + " " + "minute"
+        } else {
+             return result + " " + "minutes"
+        }
+}
+                        </code>
+                    </pre>
+                </section>
+                <section class="section" id="experience">
+                    <h2 class="section-title">Work Expirience</h2>
+                    <ul class="expirience-list">
+                        <li>2019-2021 - Accountant</li>
+                        <li>2021 - now - Support service specialist</li>
+                    </ul>
+                    <p class="projects">My first project - this CV.</p>
+                </section>
+            </section>
+        </section> 
+
+        <aside class="right">   
+            <section class="section education" id="education">
+                <h2 class="section-title">
+                    Education
+                </h2>
+                <ul>
+                    <li class="list-item">Plekhanov Russian University of Economics</li>
+                    <li class="list-item">Udemy</li>
+                    <li class="list-item">HTML Academy</li>
+                </ul>
+            </section>
+            
+            <section class="section languages" id="languages">
+                <h2 class="section-title">
+                    Languages
+                </h2>
+                <ul>
+                    <li class="list-item">Russian (native speaker)</li>
+                    <li class="list-item">English (B1)</li>
+                    <li class="list-item">Deutch (basic)</li>
+                </ul>
+            </section>
+            <section class="section skills-section" id="skills">
+                <h2 class="section-title">
+                    Skills
+                </h2>
+                <ul class="skills-list">
+                    <li class="skill-css">JS</li>
+                    <li class="level"><div style="width:60%" class="skills-level">60%</div></li>
+                    <li class="skill-html">HTML</li>
+                    <li class="level"><div style="width:80%" class="skills-level">80%</div></li>
+                    <li class="skill-css">CSS</li>
+                    <li class="level"><div style="width:65%" class="skills-level">65%</div></li>
+                    <li class="skill-css">Python Basic</li>
+                    <li class="level"><div style="width:20%" class="skills-level">20%</div></li>
+                    <li class="skill-css">Git & Github</li>
+                    <li class="level"><div style="width:50%" class="skills-level">50%</div></li>
+                </ul>
+            </section>
+        </aside>
+
+    </main>
+    <footer class="footer container">
+            <a class="footer-github" href="https://github.com/Kristina2773" target="_blank">
+                My GitHub
+              </a>
+            <a class="footer-rsschool" href="https://rs.school/js/" target="_blank">
+                <img src="assets/svg/logo.svg" width="100" height="50" alt="RS School"/>
+            </a>
+            <p class="footer-year">2021</p>
+
+    </footer>
+    
+</body>
+</html>
